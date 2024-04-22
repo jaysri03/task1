@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    width: 30vw;
+    height: 30vw;
+    background-color:transparent;
+   border: 1px transparent black;
+   box-shadow: 5px 5px 5px 5px black;
+   border-radius: 20px;
+   margin:140px 100px 0px 150px;
+  
+  
+}
+img{
+    margin: 40px 0px 0px 140px;
+     border-radius: 100px; 
+}
+input{
+    display: block;
+    justify-content: space-betweenc;
+    padding:10px 20px 5px 20px;
+    margin-bottom: 30px; 
+    position: relative;
+    left: 100px;
+    top: 25px;
+    
+}
+button{
+    margin:30px 0px 0px 170px;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+}
+@media  screen and (max-width:400px){
+    .body{
+       width: 160vw;
+       height: 160vh;
+          }
+    .nav{
+        width: 50vw;
+        height: 60vh;
+        position: absolute;
+        right: 10px;
+        bottom:  60px;
+    }      
+   .nav img{
+  position: absolute;  
+  right: 49px;  
+
+    }
+    .nav .i1{
+       
+        display: block;
+       margin-top: 120px;
+        position: absolute;
+         left: 45px;
+        font-size: 5px;     
+    }
+    .nav .i2{
+        display: block;
+       margin-top: 160px;
+        position: absolute;
+         left: 45px;
+        font-size: 5px; 
+    
+    }
+    .nav #btn
+    {
+  position: absolute;
+  top: 200px;
+  right: 90px;
+  font-size: 5px;
+  background-color: rgb(24, 12, 198);
+  color: white;
+       
+     
+    }
+}
